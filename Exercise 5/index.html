@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+  <h1>Recolección de Datos</h1>
+
+<form>
+
+    
+    <div>
+    <legend>Nombre</legend>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre de usuario" required>
+    </div>
+    <br>
+
+    
+    <div>
+        <legend>Direccion</legend>
+        <textarea id="direccion" name="direccion" rows="4" placeholder="Escribe tu dirección"></textarea>
+    </div>
+    <br>
+
+    
+    <div>
+        <legend>Edad</legend>
+        <input type="number" id="edad" name="edad" min="1" max="120">
+    </div>
+    <br>
+
+    
+    <div>
+        <label>Género</label><br>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="hombre">Hombre</label>
+
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label>
+
+        <input type="radio" id="nada" name="genero" value="prefiero no decirlo">
+        <label for="nada">Prefiero no decirlo</label>
+    </div>
+    <br>
+
+    
+    <div>
+        <label>Pasatiempos</label><br>
+
+        <input type="checkbox" id="deportes" name="pasatiempo" value="deportes">
+        <label for="deportes">Deportes</label>
+
+        <input type="checkbox" id="leer" name="pasatiempo" value="leer">
+        <label for="leer">Leer</label>
+
+        <input type="checkbox" id="comer" name="pasatiempo" value="comer">
+        <label for="comer">Comer</label>
+
+        <input type="checkbox" id="dormir" name="pasatiempo" value="dormir">
+        <label for="dormir">Dormir</label>
+
+        <input type="checkbox" id="gym" name="pasatiempo" value="gym">
+        <label for="gym">Gym</label>
+
+        <input type="checkbox" id="otros" name="pasatiempo" value="otros">
+        <label for="otros">Otros</label>
+    </div>
+    <br>
+
+    
+    <div>
+        <label for="carrera">Carrera</label>
+        <select id="carrera" name="carrera">
+            <option value="doctor">Doctor</option>
+            <option value="ingeniero de software">Ingeniero de software</option>
+            <option value="chef">Chef</option>
+            <option value="electricista">Electricista</option>
+            <option value="contador">Contador</option>
+        </select>
+    </div>
+    <br>
+
+
+    <div>
+        <label for="gmail">Gmail</label>
+        <input type="email" id="gmail" name="gmail" placeholder="example@gmail.com" required>
+    </div>
+    <br>
+
+
+    <div>
+        <input type="submit" value="Enviar">
+    </div>
+
+</form>
+
+
+</body>
+</html>
