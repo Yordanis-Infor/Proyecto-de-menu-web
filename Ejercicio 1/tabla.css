@@ -1,0 +1,66 @@
+table{
+    border: solid;
+    color: rgb(5, 147, 102);
+    margin: 25px auto;
+    background-color: bisque;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+.ok{
+    border: solid;
+    color: rgb(2, 7, 87);
+    width: 200px;
+    margin: 25px auto;
+    background-color: aliceblue;
+}
+
+.ko{
+    border: solid;
+    color: rgb(5, 25, 70);
+    width: 200px;
+    margin: 25px auto;
+    background-color: aliceblue;
+}
+
+.po{
+    border: solid;
+    color: rgb(5, 25, 70);
+    width: 200px;
+    margin: 25px auto;
+    background-color: aliceblue;
+}
+
+.in{
+    text-align: justify;
+}
+
+.O{
+text-align: justify;
+}
+
+a{
+    color: aqua;
+}

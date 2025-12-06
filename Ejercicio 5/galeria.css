@@ -1,0 +1,10 @@
+table{
+    border: solid;
+    border-color: aquamarine;
+    width: 400px;
+    margin: 25px auto;
+}
+
+h1{
+    text-align: center;
+}
