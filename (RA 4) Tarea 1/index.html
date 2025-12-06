@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ippfm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Registros de estudiantes</h1>
+
+<form action="Get">
+<div class="Nombre">
+<label for="Nombre">Nombre</label> <br>
+<input type="text" name="Nombre" id="Nombre" placeholder="Nombre de estudiante" required>
+</div> <br>
+
+<div class="Direccion">
+<label for="Direccion">Direccion</label> <br>
+<input type="text" placeholder="Direccion del estudiante" required>
+</div> <br>
+
+<div class="Telefono">
+<label for="Telefono">Telefono</label> <br>
+<input type="tel" placeholder="Numero de estudiante" required>
+</div> <br>
+
+<div class="Edad">
+<label for="Edad">Edad</label> <br>
+<input type="number" placeholder="Edad del estudiante" required>
+</div> <br>
+
+<div class="Genero">
+    <label for="Genero">Genero</label> <br>
+    <select name="Genero" id="Genero">
+    <option value="Hombre">Masculino</option>
+    <option value="Mujer">Femenino</option>
+    </select required>
+</div> <br>
+
+<div class="Tecnico">
+    <label for="Area tecnica">Area tecnica</label> <br>
+    <select name="Tecnicos" id="Tecnicos">
+<option value="Informatica">Informatica</option>
+<option value="Enfermeria">Enfemeria</option>
+<option value="Gastronomia">Gastronomia</option>
+<option value="Eletricidad">Eletricidad</option>
+<option value="Contabilidad">Contabilidad</option>
+    </select required>
+</div> <br>
+
+<div class="Tipo">
+    <legend class="Curso">Curso</legend>
+    
+<label>
+    <input type="radio" name="Curso" value="4to" required> 4to
+</label>
+<label>
+    <input type="radio" name="Curso" value="5to"> 5to
+</label>
+<label>
+    <input type="radio" name="Curso" value="6to"> 6to
+</label>
+</div>
+
+
+
+<div class="Email">
+<label for="Email">Email</label> <br>
+<input type="email" placeholder="Email del estudiante" required>
+</div> <br>
+
+<div class="Enviar">
+<Label>Enviar</Label> <br>
+<input type="submit" value="Enviar">
+</div> <br>
+</form>
+
+
+</body>
+</html>

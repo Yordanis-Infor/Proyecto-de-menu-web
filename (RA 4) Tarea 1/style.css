@@ -1,0 +1,24 @@
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+body{
+    background: black ;
+}
+
+form{
+    background-color: rgb(10, 28, 44);
+    color: aqua;
+    text-align: center;
+    width: 500px;;
+    padding: 25px auto;
+    margin: 40px auto;
+}
+
+.Nombre input{
+border-radius: 10px;
+width: 250px;
+font-size: 14px;
+background: linear-gradient(aqua red)
+}
